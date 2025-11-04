@@ -11,7 +11,7 @@
 
 ### Решение:
 ```bash
-rsync -av --checksum --delete --exclude='.*' ~/ /tmp/backup/
+rsync -av --checksum --delete --exclude='.*' --progress ~/ /tmp/backup/
 ```
 ![Выполнение команды rsync](screenshots/task1/command.png)
 ![Результат копирования](screenshots/task1/result.png)
